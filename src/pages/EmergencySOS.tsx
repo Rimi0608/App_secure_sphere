@@ -251,10 +251,10 @@ const EmergencySOS = () => {
             {/* Primary Emergency Action */}
             <Button 
               className="w-full h-14 bg-emergency text-emergency-foreground hover:bg-emergency/90 text-lg font-semibold"
-              onClick={() => handleEmergencyAction("call911")}
+              onClick={() => handleEmergencyAction("call112")}
             >
               <Phone className="h-6 w-6 mr-3" />
-              Call 911
+              Call 112
             </Button>
 
             <Button 
