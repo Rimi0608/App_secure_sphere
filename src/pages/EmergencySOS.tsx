@@ -113,9 +113,9 @@ const EmergencySOS = () => {
 
   const handleEmergencyAction = (action: string) => {
     switch (action) {
-      case "call911":
+      case "call112":
         toast({
-          title: "Calling 911",
+          title: "Calling 112",
           description: "Emergency call initiated with location sharing",
           variant: "destructive"
         });
